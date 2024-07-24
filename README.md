@@ -1,1 +1,2 @@
 # Parking-System
+This is a simple coach booking system created to demonstrate the skills in HTML, PHP, CSS, Javascript & SQL .This website was created for business which allows users to reserve parking slots at the their preffered location and time. This website has functions which allows to perform relevant CRUD operations. sessions and cookies are used to enhance the operations of the website and further technologies and tools are used in this website
