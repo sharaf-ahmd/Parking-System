@@ -1,0 +1,138 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(#5A96DB, #fff);
+}
+
+.container {
+    min-height: 100vh;
+    width: 80%;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+    background-image: linear-gradient(#5A96DB, #fff);  
+}
+
+.contact-box {
+    background: #fff;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #093f7e;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.container p {
+    font-weight: 550;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 18px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    color: #093f7e;
+    display: block;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.btn {
+    color: #093f7e;
+    background: #b8c8f3;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 0px #093f7e;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background: #5A96DB;
+    color: #fff;
+}
+
+.contact-left h3 {
+    font-size: 22px;
+    color: #093f7e;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-right h3 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
+
+.phone {
+    padding-top: 8px;
+}
